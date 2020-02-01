@@ -19,11 +19,12 @@ def main():
             result = generateNumber(guess)
             """ Checking if the result generates itself """
             if(result == guess):
+                
                 print(result)
                 print("Congratulations!", guess, "does indeed \
                 generate itself! Goodbye.")
                 break
-            elif(attempts < 15):
+            elif(attempts < 100):
 
                 print(result)
             else: 
